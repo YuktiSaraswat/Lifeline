@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lifeline Test</string>
+    <string-array name="blood_array">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string name="blood_prompt">Choose Blood Type</string>
+    <string name="name">Name:</string>
+    <string name="bloodType">Blood Type:</string>
+    <string-array name="state">
+        <item>Uttar Pradesh</item>
+    </string-array>
+    <string-array name="city">
+        <item>Bareilly</item>
+        <item>Kanpur</item>
+    </string-array>
+    <string-array name="hospital">
+        <item>City Hospital</item>
+        <item>Regency</item>
+    </string-array>
+</resources>

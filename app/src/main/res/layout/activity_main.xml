@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+           >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="127dp"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/lifeline_logo"
+                tools:ignore="VectorDrawableCompat" />
+
+            <EditText
+                android:id="@+id/edit_phone"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:inputType="Phone"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/ic_email_"
+                android:hint="Enter Your Phone Number"
+                android:paddingLeft="2dp"
+                android:textColorHint="@android:color/white" />
+            <Button
+                android:id="@+id/btn_code"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#04ea00"
+                android:text="Send Code" />
+
+            <EditText
+                android:id="@+id/edit_code"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:drawableLeft="@drawable/ic_lock"
+                android:hint="Enter Verification Code"
+                android:textColorHint="@android:color/white" />
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#04ea00"
+                android:text="Register" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="Already_registered?"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/register1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:paddingLeft="10dp"
+                    android:text="Login"
+                    android:textColor="#04ea00"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <ProgressBar
+                android:id="@+id/progress_circular1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
